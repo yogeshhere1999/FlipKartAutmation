@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="firefox Test">
+<parameter name="browser" value="firefox" />
+	<test name="Login Test">
+		<classes>
+			<class name="training.assignment.testcase.LoginTest" />
+		</classes>
+	</test>
+	<test name="Search Test">
+		<classes>
+			<class name="training.assignment.testcase.SearchTest" />
+		</classes>
+	</test> 
+	<test name="Add To Cart Test">
+		<classes>
+			<class name="training.assignment.testcase.AddToCartTest" />
+		</classes>
+	</test>
+	<test name="Go to Cart Test">
+		<classes>
+			<class name="training.assignment.testcase.GoToCartTest" />
+		</classes>
+	</test>
+	<test name="Remove From Cart Test">
+		<classes>
+			<class name="training.assignment.testcase.RemoveItemTest" />
+		</classes>
+	</test>
+	<test name="My Pofile Test">
+		<classes>
+			<class name="training.assignment.testcase.ProfileTest" />
+		</classes>
+	</test>
+	<test name="Super Coin Test">
+		<classes>
+			<class name="training.assignment.testcase.SuperCoinTest" />
+		</classes>
+	</test>
+	<test name="Flipkart Plus Test">
+		<classes>
+			<class name="training.assignment.testcase.FlipkartPlusZoneTest" />
+		</classes>
+	</test>
+	<test name="Wishlist Test">
+		<classes>
+			<class name="training.assignment.testcase.CheckWishListTest" />
+		</classes>
+	</test>
+	<test name="Orders Test">
+		<classes>
+			<class name="training.assignment.testcase.CheckOrdersTest" />
+		</classes>
+	</test>
+	<test name="Coupons Test">
+		<classes>
+			<class name="training.assignment.testcase.CheckCouponsTest" />
+		</classes>
+	</test>
+	<test name="Giftcard Test">
+		<classes>
+			<class name="training.assignment.testcase.GiftCardTest" />
+		</classes>
+	</test>
+	<test name="Notification Test">
+		<classes>
+			<class name="training.assignment.testcase.NotificationTest" />
+		</classes>
+	</test>
+	<test name="Logout Test">
+		<classes>
+			<class name="training.assignment.testcase.LogoutTest" />
+		</classes>
+	</test>
+	<test name="Grocery Test">
+		<classes>
+			<class name="training.assignment.testcase.FindGroceryTest" />
+		</classes>
+	</test>
+	<test name="Home And Furniture Test">
+		<classes>
+			<class name="training.assignment.testcase.CheckHomeAndFurnTest" />
+		</classes>
+	</test>
+	<test name="Become A Seller Test">
+		<classes>
+			<class name="training.assignment.testcase.SellerTest" />
+		</classes>
+	</test>
+	<test name="Notification Preference Test">
+		<classes>
+			<class name="training.assignment.testcase.NotificationPreferenceTest" />
+		</classes>
+	</test>
+	<test name="Customer Care Test">
+		<classes>
+			<class name="training.assignment.testcase.CustomerCareTest" />
+		</classes>
+	</test>
+	<test name="Advertise Test">
+		<classes>
+			<class name="training.assignment.testcase.AdvertiseTest" />
+		</classes>
+	</test>
+	<test name="Download App Test">
+		<classes>
+			<class name="training.assignment.testcase.DownloadAppTest" />
+		</classes>
+	</test>
+</suite>

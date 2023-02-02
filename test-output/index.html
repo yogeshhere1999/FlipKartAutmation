@@ -1,0 +1,1445 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Chrome_Test" class="navigator-link">
+              <span class="suite-name border-failed">Chrome Test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Chrome_Test" class="navigator-link ">
+                    <span>C:\Users\yogesh05\eclipse-workspace\FlipKartAssignment\runInDifferentDrivers\chromeTestng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Chrome_Test" class="navigator-link ">
+                    <span class="test-stats">21 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Chrome_Test" class="navigator-link ">
+                    <span>7 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Chrome_Test" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Chrome_Test" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Chrome_Test" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Chrome_Test" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods, 1 failed,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Chrome_Test" class="hide-methods failed suite-Chrome_Test"> (hide)</a> <!-- hide-methods failed suite-Chrome_Test -->
+                      <a href="#" panel-name="suite-Chrome_Test" class="show-methods failed suite-Chrome_Test"> (show)</a> <!-- show-methods failed suite-Chrome_Test -->
+                    </span>
+                    <div class="method-list-content failed suite-Chrome_Test">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Chrome_Test" title="training.assignment.testcase.FindGroceryTest" class="method navigator-link" hash-for-method="groceryTest">groceryTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Chrome_Test -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Chrome_Test" class="hide-methods passed suite-Chrome_Test"> (hide)</a> <!-- hide-methods passed suite-Chrome_Test -->
+                      <a href="#" panel-name="suite-Chrome_Test" class="show-methods passed suite-Chrome_Test"> (show)</a> <!-- show-methods passed suite-Chrome_Test -->
+                    </span>
+                    <div class="method-list-content passed suite-Chrome_Test">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Chrome_Test" title="training.assignment.testcase.GoToCartTest" class="method navigator-link" hash-for-method="CartButton">CartButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Chrome_Test" title="training.assignment.testcase.ProfileTest" class="method navigator-link" hash-for-method="Profile">Profile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Chrome_Test" title="training.assignment.testcase.AdvertiseTest" class="method navigator-link" hash-for-method="advertiseTest">advertiseTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Chrome_Test" title="training.assignment.testcase.AddToCartTest" class="method navigator-link" hash-for-method="cartTest">cartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Chrome_Test" title="training.assignment.testcase.CheckCouponsTest" class="method navigator-link" hash-for-method="checkCoupons">checkCoupons</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Chrome_Test" title="training.assignment.testcase.CheckOrdersTest" class="method navigator-link" hash-for-method="checkOrder">checkOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Chrome_Test" title="training.assignment.testcase.CheckWishListTest" class="method navigator-link" hash-for-method="checkWishListTest">checkWishListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Chrome_Test" title="training.assignment.testcase.LoginTest" class="method navigator-link" hash-for-method="correctemailtest">correctemailtest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Chrome_Test" title="training.assignment.testcase.CustomerCareTest" class="method navigator-link" hash-for-method="customerCareTest">customerCareTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Chrome_Test" title="training.assignment.testcase.DownloadAppTest" class="method navigator-link" hash-for-method="downloadTest">downloadTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Chrome_Test" title="training.assignment.testcase.FlipkartPlusZoneTest" class="method navigator-link" hash-for-method="flipkartPlusZoneTest">flipkartPlusZoneTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Chrome_Test" title="training.assignment.testcase.GiftCardTest" class="method navigator-link" hash-for-method="giftCard">giftCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Chrome_Test" title="training.assignment.testcase.CheckHomeAndFurnTest" class="method navigator-link" hash-for-method="homeAndfurnTest">homeAndfurnTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Chrome_Test" title="training.assignment.testcase.LogoutTest" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Chrome_Test" title="training.assignment.testcase.NotificationPreferenceTest" class="method navigator-link" hash-for-method="notificationPreferenceTest">notificationPreferenceTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Chrome_Test" title="training.assignment.testcase.RemoveItemTest" class="method navigator-link" hash-for-method="removeItem">removeItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Chrome_Test" title="training.assignment.testcase.SearchTest" class="method navigator-link" hash-for-method="searchTest">searchTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Chrome_Test" title="training.assignment.testcase.SellerTest" class="method navigator-link" hash-for-method="sellerTest">sellerTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Chrome_Test" title="training.assignment.testcase.SuperCoinTest" class="method navigator-link" hash-for-method="superCoinTest">superCoinTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Chrome_Test" title="training.assignment.testcase.NotificationTest" class="method navigator-link" hash-for-method="superCoinTest">superCoinTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Chrome_Test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Chrome_Test" class="panel Chrome_Test">
+          <div class="suite-Chrome_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">training.assignment.testcase.FindGroceryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="groceryTest">
+                  </a> <!-- groceryTest -->
+                  <span class="method-name">groceryTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;container&quot;]/div/div[1]/div[1]/div[2]/div[3]/div/div/div[2]/div[2]/div/div/div[1]/form/input&quot;}
+  (Session info: chrome=106.0.5249.91)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;IN-PG02NJQL&apos;, ip: &apos;192.168.0.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\yogesh05\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58337}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c7a0cb27f78d177d36f87b694d26f51e
+*** Element info: {Using=xpath, value=//*[@id=&quot;container&quot;]/div/div[1]/div[1]/div[2]/div[3]/div/div/div[2]/div[2]/div/div/div[1]/form/input}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at training.assignment.testcase.FindGroceryTest.groceryTest(FindGroceryTest.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chrome_Test-class-failed -->
+          <div class="suite-Chrome_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">training.assignment.testcase.NotificationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="superCoinTest">
+                  </a> <!-- superCoinTest -->
+                  <span class="method-name">superCoinTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chrome_Test-class-passed -->
+          <div class="suite-Chrome_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">training.assignment.testcase.GoToCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CartButton">
+                  </a> <!-- CartButton -->
+                  <span class="method-name">CartButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chrome_Test-class-passed -->
+          <div class="suite-Chrome_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">training.assignment.testcase.LogoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chrome_Test-class-passed -->
+          <div class="suite-Chrome_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">training.assignment.testcase.GiftCardTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="giftCard">
+                  </a> <!-- giftCard -->
+                  <span class="method-name">giftCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chrome_Test-class-passed -->
+          <div class="suite-Chrome_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">training.assignment.testcase.ProfileTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Profile">
+                  </a> <!-- Profile -->
+                  <span class="method-name">Profile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chrome_Test-class-passed -->
+          <div class="suite-Chrome_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">training.assignment.testcase.DownloadAppTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="downloadTest">
+                  </a> <!-- downloadTest -->
+                  <span class="method-name">downloadTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chrome_Test-class-passed -->
+          <div class="suite-Chrome_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">training.assignment.testcase.CheckWishListTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkWishListTest">
+                  </a> <!-- checkWishListTest -->
+                  <span class="method-name">checkWishListTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chrome_Test-class-passed -->
+          <div class="suite-Chrome_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">training.assignment.testcase.RemoveItemTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeItem">
+                  </a> <!-- removeItem -->
+                  <span class="method-name">removeItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chrome_Test-class-passed -->
+          <div class="suite-Chrome_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">training.assignment.testcase.CustomerCareTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="customerCareTest">
+                  </a> <!-- customerCareTest -->
+                  <span class="method-name">customerCareTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chrome_Test-class-passed -->
+          <div class="suite-Chrome_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">training.assignment.testcase.SellerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sellerTest">
+                  </a> <!-- sellerTest -->
+                  <span class="method-name">sellerTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chrome_Test-class-passed -->
+          <div class="suite-Chrome_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">training.assignment.testcase.AdvertiseTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="advertiseTest">
+                  </a> <!-- advertiseTest -->
+                  <span class="method-name">advertiseTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chrome_Test-class-passed -->
+          <div class="suite-Chrome_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">training.assignment.testcase.CheckHomeAndFurnTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="homeAndfurnTest">
+                  </a> <!-- homeAndfurnTest -->
+                  <span class="method-name">homeAndfurnTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chrome_Test-class-passed -->
+          <div class="suite-Chrome_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">training.assignment.testcase.CheckCouponsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCoupons">
+                  </a> <!-- checkCoupons -->
+                  <span class="method-name">checkCoupons</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chrome_Test-class-passed -->
+          <div class="suite-Chrome_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">training.assignment.testcase.SuperCoinTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="superCoinTest">
+                  </a> <!-- superCoinTest -->
+                  <span class="method-name">superCoinTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chrome_Test-class-passed -->
+          <div class="suite-Chrome_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">training.assignment.testcase.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="correctemailtest">
+                  </a> <!-- correctemailtest -->
+                  <span class="method-name">correctemailtest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chrome_Test-class-passed -->
+          <div class="suite-Chrome_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">training.assignment.testcase.FlipkartPlusZoneTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="flipkartPlusZoneTest">
+                  </a> <!-- flipkartPlusZoneTest -->
+                  <span class="method-name">flipkartPlusZoneTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chrome_Test-class-passed -->
+          <div class="suite-Chrome_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">training.assignment.testcase.AddToCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cartTest">
+                  </a> <!-- cartTest -->
+                  <span class="method-name">cartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chrome_Test-class-passed -->
+          <div class="suite-Chrome_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">training.assignment.testcase.NotificationPreferenceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="notificationPreferenceTest">
+                  </a> <!-- notificationPreferenceTest -->
+                  <span class="method-name">notificationPreferenceTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chrome_Test-class-passed -->
+          <div class="suite-Chrome_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">training.assignment.testcase.SearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest">
+                  </a> <!-- searchTest -->
+                  <span class="method-name">searchTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chrome_Test-class-passed -->
+          <div class="suite-Chrome_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">training.assignment.testcase.CheckOrdersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOrder">
+                  </a> <!-- checkOrder -->
+                  <span class="method-name">checkOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Chrome_Test-class-passed -->
+        </div> <!-- panel Chrome_Test -->
+        <div panel-name="test-xml-Chrome_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\yogesh05\eclipse-workspace\FlipKartAssignment\runInDifferentDrivers\chromeTestng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Chrome Test&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;training.assignment.testcase.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Search Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;training.assignment.testcase.SearchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Add To Cart Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;training.assignment.testcase.AddToCartTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Add To Cart Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Go to Cart Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;training.assignment.testcase.GoToCartTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Go to Cart Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Remove From Cart Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;training.assignment.testcase.RemoveItemTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Remove From Cart Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;My Pofile Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;training.assignment.testcase.ProfileTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- My Pofile Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Super Coin Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;training.assignment.testcase.SuperCoinTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Super Coin Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Flipkart Plus Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;training.assignment.testcase.FlipkartPlusZoneTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Flipkart Plus Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Wishlist Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;training.assignment.testcase.CheckWishListTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Wishlist Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Orders Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;training.assignment.testcase.CheckOrdersTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Orders Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Coupons Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;training.assignment.testcase.CheckCouponsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Coupons Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Giftcard Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;training.assignment.testcase.GiftCardTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Giftcard Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Notification Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;training.assignment.testcase.NotificationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Notification Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Dowanload App Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;training.assignment.testcase.DownloadAppTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Dowanload App Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Grocery Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;training.assignment.testcase.FindGroceryTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Grocery Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Home And Furniture Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;training.assignment.testcase.CheckHomeAndFurnTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Home And Furniture Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Become A Seller Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;training.assignment.testcase.SellerTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Become A Seller Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Notification Preference Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;training.assignment.testcase.NotificationPreferenceTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Notification Preference Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Customer Care Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;training.assignment.testcase.CustomerCareTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Customer Care Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Advertise Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;training.assignment.testcase.AdvertiseTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Advertise Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Logout Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;training.assignment.testcase.LogoutTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Logout Test --&gt;
+&lt;/suite&gt; &lt;!-- Chrome Test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Chrome_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Chrome Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Add To Cart Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Go to Cart Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Remove From Cart Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">My Pofile Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Super Coin Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Flipkart Plus Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Wishlist Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Orders Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Coupons Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Giftcard Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Notification Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Dowanload App Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Grocery Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Home And Furniture Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Become A Seller Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Notification Preference Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Customer Care Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Advertise Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Logout Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Chrome_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Chrome Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">all</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">CartButton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Profile</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">advertiseTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">cartTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkCoupons</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkOrder</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkWishListTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">correctemailtest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">customerCareTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">downloadTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">flipkartPlusZoneTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">giftCard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">groceryTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">homeAndfurnTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">logoutTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">notificationPreferenceTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">removeItem</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sellerTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">superCoinTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">cart</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">CartButton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">cartTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">removeItem</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">home</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">groceryTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">homeAndfurnTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sellerTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">login</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">correctemailtest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">logout</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">logoutTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">menu</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Profile</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkCoupons</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkOrder</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkWishListTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">flipkartPlusZoneTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">giftCard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">superCoinTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">moreoptions</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">advertiseTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">customerCareTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">downloadTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">notificationPreferenceTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Chrome_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Chrome Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Chrome_Test');
+function tableData_Chrome_Test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'groceryTest')
+data.setCell(0, 2, 'training.assignment.testcase.FindGroceryTest')
+data.setCell(0, 3, 10312);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'sellerTest')
+data.setCell(1, 2, 'training.assignment.testcase.SellerTest')
+data.setCell(1, 3, 4031);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'removeItem')
+data.setCell(2, 2, 'training.assignment.testcase.RemoveItemTest')
+data.setCell(2, 3, 2557);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'homeAndfurnTest')
+data.setCell(3, 2, 'training.assignment.testcase.CheckHomeAndFurnTest')
+data.setCell(3, 3, 2232);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'flipkartPlusZoneTest')
+data.setCell(4, 2, 'training.assignment.testcase.FlipkartPlusZoneTest')
+data.setCell(4, 3, 1413);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'advertiseTest')
+data.setCell(5, 2, 'training.assignment.testcase.AdvertiseTest')
+data.setCell(5, 3, 1354);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'cartTest')
+data.setCell(6, 2, 'training.assignment.testcase.AddToCartTest')
+data.setCell(6, 3, 1249);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'superCoinTest')
+data.setCell(7, 2, 'training.assignment.testcase.NotificationTest')
+data.setCell(7, 3, 780);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'giftCard')
+data.setCell(8, 2, 'training.assignment.testcase.GiftCardTest')
+data.setCell(8, 3, 758);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'notificationPreferenceTest')
+data.setCell(9, 2, 'training.assignment.testcase.NotificationPreferenceTest')
+data.setCell(9, 3, 750);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'downloadTest')
+data.setCell(10, 2, 'training.assignment.testcase.DownloadAppTest')
+data.setCell(10, 3, 648);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Profile')
+data.setCell(11, 2, 'training.assignment.testcase.ProfileTest')
+data.setCell(11, 3, 632);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'customerCareTest')
+data.setCell(12, 2, 'training.assignment.testcase.CustomerCareTest')
+data.setCell(12, 3, 552);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'checkCoupons')
+data.setCell(13, 2, 'training.assignment.testcase.CheckCouponsTest')
+data.setCell(13, 3, 475);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'superCoinTest')
+data.setCell(14, 2, 'training.assignment.testcase.SuperCoinTest')
+data.setCell(14, 3, 457);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkWishListTest')
+data.setCell(15, 2, 'training.assignment.testcase.CheckWishListTest')
+data.setCell(15, 3, 454);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'checkOrder')
+data.setCell(16, 2, 'training.assignment.testcase.CheckOrdersTest')
+data.setCell(16, 3, 439);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'logoutTest')
+data.setCell(17, 2, 'training.assignment.testcase.LogoutTest')
+data.setCell(17, 3, 419);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'searchTest')
+data.setCell(18, 2, 'training.assignment.testcase.SearchTest')
+data.setCell(18, 3, 280);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'correctemailtest')
+data.setCell(19, 2, 'training.assignment.testcase.LoginTest')
+data.setCell(19, 3, 259);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'CartButton')
+data.setCell(20, 2, 'training.assignment.testcase.GoToCartTest')
+data.setCell(20, 3, 136);
+window.suiteTableData['Chrome_Test']= { tableData: data, tableDiv: 'times-div-Chrome_Test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <div id="times-div-Chrome_Test">
+              </div> <!-- times-div-Chrome_Test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Chrome_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Chrome Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Chrome_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Chrome_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">training.assignment.testcase.LogoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initializeWebdriver(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">training.assignment.testcase.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">enterurl(public void training.assignment.testcase.LoginTest.correctemailtest() throws java.lang.InterruptedEx...)</span>
+                <span class="method-start">1712 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">correctemailtest</span>
+                <span class="method-start">40558 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=correctemailtest status=SUCCESS method=LoginTest.correctemailtest()[pri:0, instance...)</span>
+                <span class="method-start">40819 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">training.assignment.testcase.SearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">enterurl(public void training.assignment.testcase.SearchTest.searchTest())</span>
+                <span class="method-start">41151 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchTest</span>
+                <span class="method-start">41908 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=searchTest status=SUCCESS method=SearchTest.searchTest()[pri:0, instance:training.a...)</span>
+                <span class="method-start">42189 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">training.assignment.testcase.AddToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">enterurl(public void training.assignment.testcase.AddToCartTest.cartTest() throws java.lang.InterruptedExcept...)</span>
+                <span class="method-start">42242 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">openProductUrl</span>
+                <span class="method-start">42871 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cartTest</span>
+                <span class="method-start">44287 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=cartTest status=SUCCESS method=AddToCartTest.cartTest()[pri:0, instance:training.as...)</span>
+                <span class="method-start">45537 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">training.assignment.testcase.GoToCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">enterurl(public void training.assignment.testcase.GoToCartTest.CartButton())</span>
+                <span class="method-start">45586 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">46143 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CartButton</span>
+                <span class="method-start">46806 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=CartButton status=SUCCESS method=GoToCartTest.CartButton()[pri:0, instance:training...)</span>
+                <span class="method-start">46944 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">training.assignment.testcase.RemoveItemTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">enterurl(public void training.assignment.testcase.RemoveItemTest.removeItem() throws java.lang.InterruptedExc...)</span>
+                <span class="method-start">47000 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">47533 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeItem</span>
+                <span class="method-start">48074 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=removeItem status=SUCCESS method=RemoveItemTest.removeItem()[pri:0, instance:traini...)</span>
+                <span class="method-start">50634 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">training.assignment.testcase.ProfileTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">enterurl(public void training.assignment.testcase.ProfileTest.Profile())</span>
+                <span class="method-start">50672 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">51341 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Profile</span>
+                <span class="method-start">51942 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=Profile status=SUCCESS method=ProfileTest.Profile()[pri:0, instance:training.assign...)</span>
+                <span class="method-start">52575 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">training.assignment.testcase.SuperCoinTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">enterurl(public void training.assignment.testcase.SuperCoinTest.superCoinTest())</span>
+                <span class="method-start">52606 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">superCoinTest</span>
+                <span class="method-start">53184 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=superCoinTest status=SUCCESS method=SuperCoinTest.superCoinTest()[pri:0, instance:t...)</span>
+                <span class="method-start">53642 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">training.assignment.testcase.FlipkartPlusZoneTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">enterurl(public void training.assignment.testcase.FlipkartPlusZoneTest.flipkartPlusZoneTest())</span>
+                <span class="method-start">53679 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">flipkartPlusZoneTest</span>
+                <span class="method-start">54798 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=flipkartPlusZoneTest status=SUCCESS method=FlipkartPlusZoneTest.flipkartPlusZoneTes...)</span>
+                <span class="method-start">56214 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">training.assignment.testcase.CheckWishListTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">enterurl(public void training.assignment.testcase.CheckWishListTest.checkWishListTest())</span>
+                <span class="method-start">56237 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkWishListTest</span>
+                <span class="method-start">56838 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=checkWishListTest status=SUCCESS method=CheckWishListTest.checkWishListTest()[pri:0...)</span>
+                <span class="method-start">57292 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">training.assignment.testcase.CheckOrdersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">enterurl(public void training.assignment.testcase.CheckOrdersTest.checkOrder())</span>
+                <span class="method-start">57326 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkOrder</span>
+                <span class="method-start">57980 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=checkOrder status=SUCCESS method=CheckOrdersTest.checkOrder()[pri:0, instance:train...)</span>
+                <span class="method-start">58420 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">training.assignment.testcase.CheckCouponsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">enterurl(public void training.assignment.testcase.CheckCouponsTest.checkCoupons())</span>
+                <span class="method-start">58455 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkCoupons</span>
+                <span class="method-start">59256 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=checkCoupons status=SUCCESS method=CheckCouponsTest.checkCoupons()[pri:0, instance:...)</span>
+                <span class="method-start">59732 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">training.assignment.testcase.GiftCardTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">enterurl(public void training.assignment.testcase.GiftCardTest.giftCard())</span>
+                <span class="method-start">59773 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">60405 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">giftCard</span>
+                <span class="method-start">61124 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=giftCard status=SUCCESS method=GiftCardTest.giftCard()[pri:0, instance:training.ass...)</span>
+                <span class="method-start">61883 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">training.assignment.testcase.NotificationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">enterurl(public void training.assignment.testcase.NotificationTest.superCoinTest())</span>
+                <span class="method-start">61909 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">superCoinTest</span>
+                <span class="method-start">62692 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=superCoinTest status=SUCCESS method=NotificationTest.superCoinTest()[pri:0, instanc...)</span>
+                <span class="method-start">63473 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">training.assignment.testcase.DownloadAppTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">enterurl(public void training.assignment.testcase.DownloadAppTest.downloadTest())</span>
+                <span class="method-start">63497 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">downloadTest</span>
+                <span class="method-start">64190 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=downloadTest status=SUCCESS method=DownloadAppTest.downloadTest()[pri:0, instance:t...)</span>
+                <span class="method-start">64838 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">training.assignment.testcase.FindGroceryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">enterurl(public void training.assignment.testcase.FindGroceryTest.groceryTest() throws java.lang.InterruptedE...)</span>
+                <span class="method-start">64866 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">65603 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">groceryTest</span>
+                <span class="method-start">66215 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=groceryTest status=FAILURE method=FindGroceryTest.groceryTest()[pri:0, instance:tra...)</span>
+                <span class="method-start">76530 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">training.assignment.testcase.CheckHomeAndFurnTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">enterurl(public void training.assignment.testcase.CheckHomeAndFurnTest.homeAndfurnTest() throws java.lang.Int...)</span>
+                <span class="method-start">77171 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">login</span>
+                <span class="method-start">77806 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">homeAndfurnTest</span>
+                <span class="method-start">78357 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=homeAndfurnTest status=SUCCESS method=CheckHomeAndFurnTest.homeAndfurnTest()[pri:0,...)</span>
+                <span class="method-start">80590 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">training.assignment.testcase.SellerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">enterurl(public void training.assignment.testcase.SellerTest.sellerTest() throws java.lang.InterruptedExcepti...)</span>
+                <span class="method-start">80629 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sellerTest</span>
+                <span class="method-start">81505 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=sellerTest status=SUCCESS method=SellerTest.sellerTest()[pri:0, instance:training.a...)</span>
+                <span class="method-start">85537 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">training.assignment.testcase.NotificationPreferenceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">enterurl(public void training.assignment.testcase.NotificationPreferenceTest.notificationPreferenceTest())</span>
+                <span class="method-start">85567 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">notificationPreferenceTest</span>
+                <span class="method-start">86205 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=notificationPreferenceTest status=SUCCESS method=NotificationPreferenceTest.notific...)</span>
+                <span class="method-start">86955 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">training.assignment.testcase.CustomerCareTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">enterurl(public void training.assignment.testcase.CustomerCareTest.customerCareTest())</span>
+                <span class="method-start">86977 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">customerCareTest</span>
+                <span class="method-start">87687 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=customerCareTest status=SUCCESS method=CustomerCareTest.customerCareTest()[pri:0, i...)</span>
+                <span class="method-start">88239 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">training.assignment.testcase.AdvertiseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">enterurl(public void training.assignment.testcase.AdvertiseTest.advertiseTest())</span>
+                <span class="method-start">88272 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">advertiseTest</span>
+                <span class="method-start">88917 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=advertiseTest status=SUCCESS method=AdvertiseTest.advertiseTest()[pri:0, instance:t...)</span>
+                <span class="method-start">90271 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">training.assignment.testcase.LogoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">enterurl(public void training.assignment.testcase.LogoutTest.logoutTest())</span>
+                <span class="method-start">90301 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logoutTest</span>
+                <span class="method-start">90886 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=logoutTest status=SUCCESS method=LogoutTest.logoutTest()[pri:0, instance:training.a...)</span>
+                <span class="method-start">91306 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">browserclose</span>
+                <span class="method-start">91348 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

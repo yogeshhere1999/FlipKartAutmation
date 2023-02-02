@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="20" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-07T22:46:16 IST" name="Chrome Test" finished-at="2022-10-07T22:47:45 IST" duration-ms="89648">
+    <groups>
+      <group name="all">
+        <method signature="LoginTest.correctemailtest()[pri:0, instance:training.assignment.testcase.LoginTest@1a18644]" name="correctemailtest" class="training.assignment.testcase.LoginTest"/>
+        <method signature="SearchTest.searchTest()[pri:0, instance:training.assignment.testcase.SearchTest@21282ed8]" name="searchTest" class="training.assignment.testcase.SearchTest"/>
+        <method signature="AddToCartTest.cartTest()[pri:0, instance:training.assignment.testcase.AddToCartTest@290222c1]" name="cartTest" class="training.assignment.testcase.AddToCartTest"/>
+        <method signature="GoToCartTest.CartButton()[pri:0, instance:training.assignment.testcase.GoToCartTest@428640fa]" name="CartButton" class="training.assignment.testcase.GoToCartTest"/>
+        <method signature="RemoveItemTest.removeItem()[pri:0, instance:training.assignment.testcase.RemoveItemTest@13fd2ccd]" name="removeItem" class="training.assignment.testcase.RemoveItemTest"/>
+        <method signature="ProfileTest.Profile()[pri:0, instance:training.assignment.testcase.ProfileTest@52b1beb6]" name="Profile" class="training.assignment.testcase.ProfileTest"/>
+        <method signature="SuperCoinTest.superCoinTest()[pri:0, instance:training.assignment.testcase.SuperCoinTest@2d52216b]" name="superCoinTest" class="training.assignment.testcase.SuperCoinTest"/>
+        <method signature="FlipkartPlusZoneTest.flipkartPlusZoneTest()[pri:0, instance:training.assignment.testcase.FlipkartPlusZoneTest@60bd273d]" name="flipkartPlusZoneTest" class="training.assignment.testcase.FlipkartPlusZoneTest"/>
+        <method signature="CheckWishListTest.checkWishListTest()[pri:0, instance:training.assignment.testcase.CheckWishListTest@70e9c95d]" name="checkWishListTest" class="training.assignment.testcase.CheckWishListTest"/>
+        <method signature="CheckOrdersTest.checkOrder()[pri:0, instance:training.assignment.testcase.CheckOrdersTest@52719fb6]" name="checkOrder" class="training.assignment.testcase.CheckOrdersTest"/>
+        <method signature="CheckCouponsTest.checkCoupons()[pri:0, instance:training.assignment.testcase.CheckCouponsTest@5677323c]" name="checkCoupons" class="training.assignment.testcase.CheckCouponsTest"/>
+        <method signature="GiftCardTest.giftCard()[pri:0, instance:training.assignment.testcase.GiftCardTest@791f145a]" name="giftCard" class="training.assignment.testcase.GiftCardTest"/>
+        <method signature="NotificationTest.superCoinTest()[pri:0, instance:training.assignment.testcase.NotificationTest@6340e5f0]" name="superCoinTest" class="training.assignment.testcase.NotificationTest"/>
+        <method signature="DownloadAppTest.downloadTest()[pri:0, instance:training.assignment.testcase.DownloadAppTest@60099951]" name="downloadTest" class="training.assignment.testcase.DownloadAppTest"/>
+        <method signature="FindGroceryTest.groceryTest()[pri:0, instance:training.assignment.testcase.FindGroceryTest@71ba6d4e]" name="groceryTest" class="training.assignment.testcase.FindGroceryTest"/>
+        <method signature="CheckHomeAndFurnTest.homeAndfurnTest()[pri:0, instance:training.assignment.testcase.CheckHomeAndFurnTest@750e2b97]" name="homeAndfurnTest" class="training.assignment.testcase.CheckHomeAndFurnTest"/>
+        <method signature="SellerTest.sellerTest()[pri:0, instance:training.assignment.testcase.SellerTest@f0c8a99]" name="sellerTest" class="training.assignment.testcase.SellerTest"/>
+        <method signature="NotificationPreferenceTest.notificationPreferenceTest()[pri:0, instance:training.assignment.testcase.NotificationPreferenceTest@54c5a2ff]" name="notificationPreferenceTest" class="training.assignment.testcase.NotificationPreferenceTest"/>
+        <method signature="CustomerCareTest.customerCareTest()[pri:0, instance:training.assignment.testcase.CustomerCareTest@2e8c1c9b]" name="customerCareTest" class="training.assignment.testcase.CustomerCareTest"/>
+        <method signature="AdvertiseTest.advertiseTest()[pri:0, instance:training.assignment.testcase.AdvertiseTest@7d0b7e3c]" name="advertiseTest" class="training.assignment.testcase.AdvertiseTest"/>
+        <method signature="LogoutTest.logoutTest()[pri:0, instance:training.assignment.testcase.LogoutTest@7674f035]" name="logoutTest" class="training.assignment.testcase.LogoutTest"/>
+      </group> <!-- all -->
+      <group name="logout">
+        <method signature="LogoutTest.logoutTest()[pri:0, instance:training.assignment.testcase.LogoutTest@7674f035]" name="logoutTest" class="training.assignment.testcase.LogoutTest"/>
+      </group> <!-- logout -->
+      <group name="moreoptions">
+        <method signature="DownloadAppTest.downloadTest()[pri:0, instance:training.assignment.testcase.DownloadAppTest@60099951]" name="downloadTest" class="training.assignment.testcase.DownloadAppTest"/>
+        <method signature="NotificationPreferenceTest.notificationPreferenceTest()[pri:0, instance:training.assignment.testcase.NotificationPreferenceTest@54c5a2ff]" name="notificationPreferenceTest" class="training.assignment.testcase.NotificationPreferenceTest"/>
+        <method signature="CustomerCareTest.customerCareTest()[pri:0, instance:training.assignment.testcase.CustomerCareTest@2e8c1c9b]" name="customerCareTest" class="training.assignment.testcase.CustomerCareTest"/>
+        <method signature="AdvertiseTest.advertiseTest()[pri:0, instance:training.assignment.testcase.AdvertiseTest@7d0b7e3c]" name="advertiseTest" class="training.assignment.testcase.AdvertiseTest"/>
+      </group> <!-- moreoptions -->
+      <group name="menu">
+        <method signature="ProfileTest.Profile()[pri:0, instance:training.assignment.testcase.ProfileTest@52b1beb6]" name="Profile" class="training.assignment.testcase.ProfileTest"/>
+        <method signature="SuperCoinTest.superCoinTest()[pri:0, instance:training.assignment.testcase.SuperCoinTest@2d52216b]" name="superCoinTest" class="training.assignment.testcase.SuperCoinTest"/>
+        <method signature="FlipkartPlusZoneTest.flipkartPlusZoneTest()[pri:0, instance:training.assignment.testcase.FlipkartPlusZoneTest@60bd273d]" name="flipkartPlusZoneTest" class="training.assignment.testcase.FlipkartPlusZoneTest"/>
+        <method signature="CheckWishListTest.checkWishListTest()[pri:0, instance:training.assignment.testcase.CheckWishListTest@70e9c95d]" name="checkWishListTest" class="training.assignment.testcase.CheckWishListTest"/>
+        <method signature="CheckOrdersTest.checkOrder()[pri:0, instance:training.assignment.testcase.CheckOrdersTest@52719fb6]" name="checkOrder" class="training.assignment.testcase.CheckOrdersTest"/>
+        <method signature="CheckCouponsTest.checkCoupons()[pri:0, instance:training.assignment.testcase.CheckCouponsTest@5677323c]" name="checkCoupons" class="training.assignment.testcase.CheckCouponsTest"/>
+        <method signature="GiftCardTest.giftCard()[pri:0, instance:training.assignment.testcase.GiftCardTest@791f145a]" name="giftCard" class="training.assignment.testcase.GiftCardTest"/>
+        <method signature="NotificationTest.superCoinTest()[pri:0, instance:training.assignment.testcase.NotificationTest@6340e5f0]" name="superCoinTest" class="training.assignment.testcase.NotificationTest"/>
+      </group> <!-- menu -->
+      <group name="login">
+        <method signature="LoginTest.correctemailtest()[pri:0, instance:training.assignment.testcase.LoginTest@1a18644]" name="correctemailtest" class="training.assignment.testcase.LoginTest"/>
+      </group> <!-- login -->
+      <group name="cart">
+        <method signature="AddToCartTest.cartTest()[pri:0, instance:training.assignment.testcase.AddToCartTest@290222c1]" name="cartTest" class="training.assignment.testcase.AddToCartTest"/>
+        <method signature="GoToCartTest.CartButton()[pri:0, instance:training.assignment.testcase.GoToCartTest@428640fa]" name="CartButton" class="training.assignment.testcase.GoToCartTest"/>
+        <method signature="RemoveItemTest.removeItem()[pri:0, instance:training.assignment.testcase.RemoveItemTest@13fd2ccd]" name="removeItem" class="training.assignment.testcase.RemoveItemTest"/>
+      </group> <!-- cart -->
+      <group name="home">
+        <method signature="SearchTest.searchTest()[pri:0, instance:training.assignment.testcase.SearchTest@21282ed8]" name="searchTest" class="training.assignment.testcase.SearchTest"/>
+        <method signature="FindGroceryTest.groceryTest()[pri:0, instance:training.assignment.testcase.FindGroceryTest@71ba6d4e]" name="groceryTest" class="training.assignment.testcase.FindGroceryTest"/>
+        <method signature="CheckHomeAndFurnTest.homeAndfurnTest()[pri:0, instance:training.assignment.testcase.CheckHomeAndFurnTest@750e2b97]" name="homeAndfurnTest" class="training.assignment.testcase.CheckHomeAndFurnTest"/>
+        <method signature="SellerTest.sellerTest()[pri:0, instance:training.assignment.testcase.SellerTest@f0c8a99]" name="sellerTest" class="training.assignment.testcase.SellerTest"/>
+      </group> <!-- home -->
+    </groups>
+    <test started-at="2022-10-07T22:46:16 IST" name="Login Test" finished-at="2022-10-07T22:46:55 IST" duration-ms="39431">
+      <class name="training.assignment.testcase.LoginTest">
+        <test-method is-config="true" signature="enterurl(java.lang.reflect.Method)[pri:0, instance:training.assignment.testcase.LoginTest@1a18644]" started-at="2022-10-07T22:46:16 IST" name="enterurl" finished-at="2022-10-07T22:46:55 IST" duration-ms="38845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void training.assignment.testcase.LoginTest.correctemailtest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurl -->
+        <test-method signature="correctemailtest()[pri:0, instance:training.assignment.testcase.LoginTest@1a18644]" started-at="2022-10-07T22:46:55 IST" name="correctemailtest" finished-at="2022-10-07T22:46:55 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctemailtest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:training.assignment.testcase.LoginTest@1a18644]" started-at="2022-10-07T22:46:55 IST" name="afterMethod" finished-at="2022-10-07T22:46:55 IST" duration-ms="300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=correctemailtest status=SUCCESS method=LoginTest.correctemailtest()[pri:0, instance:training.assignment.testcase.LoginTest@1a18644] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- training.assignment.testcase.LoginTest -->
+    </test> <!-- Login Test -->
+    <test started-at="2022-10-07T22:46:55 IST" name="Search Test" finished-at="2022-10-07T22:46:56 IST" duration-ms="1086">
+      <class name="training.assignment.testcase.SearchTest">
+        <test-method is-config="true" signature="enterurl(java.lang.reflect.Method)[pri:0, instance:training.assignment.testcase.SearchTest@21282ed8]" started-at="2022-10-07T22:46:55 IST" name="enterurl" finished-at="2022-10-07T22:46:56 IST" duration-ms="757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void training.assignment.testcase.SearchTest.searchTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurl -->
+        <test-method signature="searchTest()[pri:0, instance:training.assignment.testcase.SearchTest@21282ed8]" started-at="2022-10-07T22:46:56 IST" name="searchTest" finished-at="2022-10-07T22:46:56 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:training.assignment.testcase.SearchTest@21282ed8]" started-at="2022-10-07T22:46:56 IST" name="afterMethod" finished-at="2022-10-07T22:46:56 IST" duration-ms="47" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchTest status=SUCCESS method=SearchTest.searchTest()[pri:0, instance:training.assignment.testcase.SearchTest@21282ed8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- training.assignment.testcase.SearchTest -->
+    </test> <!-- Search Test -->
+    <test started-at="2022-10-07T22:46:56 IST" name="Add To Cart Test" finished-at="2022-10-07T22:47:00 IST" duration-ms="3338">
+      <class name="training.assignment.testcase.AddToCartTest">
+        <test-method is-config="true" signature="enterurl(java.lang.reflect.Method)[pri:0, instance:training.assignment.testcase.AddToCartTest@290222c1]" started-at="2022-10-07T22:46:56 IST" name="enterurl" finished-at="2022-10-07T22:46:57 IST" duration-ms="629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void training.assignment.testcase.AddToCartTest.cartTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurl -->
+        <test-method is-config="true" signature="openProductUrl()[pri:0, instance:training.assignment.testcase.AddToCartTest@290222c1]" started-at="2022-10-07T22:46:57 IST" name="openProductUrl" finished-at="2022-10-07T22:46:58 IST" duration-ms="1416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openProductUrl -->
+        <test-method signature="cartTest()[pri:0, instance:training.assignment.testcase.AddToCartTest@290222c1]" started-at="2022-10-07T22:46:58 IST" name="cartTest" finished-at="2022-10-07T22:47:00 IST" duration-ms="1249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:training.assignment.testcase.AddToCartTest@290222c1]" started-at="2022-10-07T22:47:00 IST" name="afterMethod" finished-at="2022-10-07T22:47:00 IST" duration-ms="42" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cartTest status=SUCCESS method=AddToCartTest.cartTest()[pri:0, instance:training.assignment.testcase.AddToCartTest@290222c1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- training.assignment.testcase.AddToCartTest -->
+    </test> <!-- Add To Cart Test -->
+    <test started-at="2022-10-07T22:47:00 IST" name="Go to Cart Test" finished-at="2022-10-07T22:47:01 IST" duration-ms="1410">
+      <class name="training.assignment.testcase.GoToCartTest">
+        <test-method is-config="true" signature="enterurl(java.lang.reflect.Method)[pri:0, instance:training.assignment.testcase.GoToCartTest@428640fa]" started-at="2022-10-07T22:47:00 IST" name="enterurl" finished-at="2022-10-07T22:47:00 IST" duration-ms="557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void training.assignment.testcase.GoToCartTest.CartButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurl -->
+        <test-method is-config="true" signature="login()[pri:0, instance:training.assignment.testcase.GoToCartTest@428640fa]" started-at="2022-10-07T22:47:00 IST" name="login" finished-at="2022-10-07T22:47:01 IST" duration-ms="663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="CartButton()[pri:0, instance:training.assignment.testcase.GoToCartTest@428640fa]" started-at="2022-10-07T22:47:01 IST" name="CartButton" finished-at="2022-10-07T22:47:01 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartButton -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:training.assignment.testcase.GoToCartTest@428640fa]" started-at="2022-10-07T22:47:01 IST" name="afterMethod" finished-at="2022-10-07T22:47:01 IST" duration-ms="50" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CartButton status=SUCCESS method=GoToCartTest.CartButton()[pri:0, instance:training.assignment.testcase.GoToCartTest@428640fa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- training.assignment.testcase.GoToCartTest -->
+    </test> <!-- Go to Cart Test -->
+    <test started-at="2022-10-07T22:47:01 IST" name="Remove From Cart Test" finished-at="2022-10-07T22:47:05 IST" duration-ms="3661">
+      <class name="training.assignment.testcase.RemoveItemTest">
+        <test-method is-config="true" signature="enterurl(java.lang.reflect.Method)[pri:0, instance:training.assignment.testcase.RemoveItemTest@13fd2ccd]" started-at="2022-10-07T22:47:01 IST" name="enterurl" finished-at="2022-10-07T22:47:02 IST" duration-ms="533" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void training.assignment.testcase.RemoveItemTest.removeItem() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurl -->
+        <test-method is-config="true" signature="login()[pri:0, instance:training.assignment.testcase.RemoveItemTest@13fd2ccd]" started-at="2022-10-07T22:47:02 IST" name="login" finished-at="2022-10-07T22:47:02 IST" duration-ms="541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="removeItem()[pri:0, instance:training.assignment.testcase.RemoveItemTest@13fd2ccd]" started-at="2022-10-07T22:47:02 IST" name="removeItem" finished-at="2022-10-07T22:47:05 IST" duration-ms="2557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItem -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:training.assignment.testcase.RemoveItemTest@13fd2ccd]" started-at="2022-10-07T22:47:05 IST" name="afterMethod" finished-at="2022-10-07T22:47:05 IST" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeItem status=SUCCESS method=RemoveItemTest.removeItem()[pri:0, instance:training.assignment.testcase.RemoveItemTest@13fd2ccd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- training.assignment.testcase.RemoveItemTest -->
+    </test> <!-- Remove From Cart Test -->
+    <test started-at="2022-10-07T22:47:05 IST" name="My Pofile Test" finished-at="2022-10-07T22:47:07 IST" duration-ms="1929">
+      <class name="training.assignment.testcase.ProfileTest">
+        <test-method is-config="true" signature="enterurl(java.lang.reflect.Method)[pri:0, instance:training.assignment.testcase.ProfileTest@52b1beb6]" started-at="2022-10-07T22:47:05 IST" name="enterurl" finished-at="2022-10-07T22:47:05 IST" duration-ms="669" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void training.assignment.testcase.ProfileTest.Profile()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurl -->
+        <test-method is-config="true" signature="login()[pri:0, instance:training.assignment.testcase.ProfileTest@52b1beb6]" started-at="2022-10-07T22:47:05 IST" name="login" finished-at="2022-10-07T22:47:06 IST" duration-ms="601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="Profile()[pri:0, instance:training.assignment.testcase.ProfileTest@52b1beb6]" started-at="2022-10-07T22:47:06 IST" name="Profile" finished-at="2022-10-07T22:47:07 IST" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Profile -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:training.assignment.testcase.ProfileTest@52b1beb6]" started-at="2022-10-07T22:47:07 IST" name="afterMethod" finished-at="2022-10-07T22:47:07 IST" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Profile status=SUCCESS method=ProfileTest.Profile()[pri:0, instance:training.assignment.testcase.ProfileTest@52b1beb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- training.assignment.testcase.ProfileTest -->
+    </test> <!-- My Pofile Test -->
+    <test started-at="2022-10-07T22:47:07 IST" name="Super Coin Test" finished-at="2022-10-07T22:47:08 IST" duration-ms="1066">
+      <class name="training.assignment.testcase.SuperCoinTest">
+        <test-method is-config="true" signature="enterurl(java.lang.reflect.Method)[pri:0, instance:training.assignment.testcase.SuperCoinTest@2d52216b]" started-at="2022-10-07T22:47:07 IST" name="enterurl" finished-at="2022-10-07T22:47:07 IST" duration-ms="578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void training.assignment.testcase.SuperCoinTest.superCoinTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurl -->
+        <test-method signature="superCoinTest()[pri:0, instance:training.assignment.testcase.SuperCoinTest@2d52216b]" started-at="2022-10-07T22:47:07 IST" name="superCoinTest" finished-at="2022-10-07T22:47:08 IST" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- superCoinTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:training.assignment.testcase.SuperCoinTest@2d52216b]" started-at="2022-10-07T22:47:08 IST" name="afterMethod" finished-at="2022-10-07T22:47:08 IST" duration-ms="29" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=superCoinTest status=SUCCESS method=SuperCoinTest.superCoinTest()[pri:0, instance:training.assignment.testcase.SuperCoinTest@2d52216b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- training.assignment.testcase.SuperCoinTest -->
+    </test> <!-- Super Coin Test -->
+    <test started-at="2022-10-07T22:47:08 IST" name="Flipkart Plus Test" finished-at="2022-10-07T22:47:10 IST" duration-ms="2559">
+      <class name="training.assignment.testcase.FlipkartPlusZoneTest">
+        <test-method is-config="true" signature="enterurl(java.lang.reflect.Method)[pri:0, instance:training.assignment.testcase.FlipkartPlusZoneTest@60bd273d]" started-at="2022-10-07T22:47:08 IST" name="enterurl" finished-at="2022-10-07T22:47:09 IST" duration-ms="1119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void training.assignment.testcase.FlipkartPlusZoneTest.flipkartPlusZoneTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurl -->
+        <test-method signature="flipkartPlusZoneTest()[pri:0, instance:training.assignment.testcase.FlipkartPlusZoneTest@60bd273d]" started-at="2022-10-07T22:47:09 IST" name="flipkartPlusZoneTest" finished-at="2022-10-07T22:47:10 IST" duration-ms="1413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkartPlusZoneTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:training.assignment.testcase.FlipkartPlusZoneTest@60bd273d]" started-at="2022-10-07T22:47:10 IST" name="afterMethod" finished-at="2022-10-07T22:47:10 IST" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flipkartPlusZoneTest status=SUCCESS method=FlipkartPlusZoneTest.flipkartPlusZoneTest()[pri:0, instance:training.assignment.testcase.FlipkartPlusZoneTest@60bd273d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- training.assignment.testcase.FlipkartPlusZoneTest -->
+    </test> <!-- Flipkart Plus Test -->
+    <test started-at="2022-10-07T22:47:10 IST" name="Wishlist Test" finished-at="2022-10-07T22:47:11 IST" duration-ms="1083">
+      <class name="training.assignment.testcase.CheckWishListTest">
+        <test-method is-config="true" signature="enterurl(java.lang.reflect.Method)[pri:0, instance:training.assignment.testcase.CheckWishListTest@70e9c95d]" started-at="2022-10-07T22:47:10 IST" name="enterurl" finished-at="2022-10-07T22:47:11 IST" duration-ms="601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void training.assignment.testcase.CheckWishListTest.checkWishListTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurl -->
+        <test-method signature="checkWishListTest()[pri:0, instance:training.assignment.testcase.CheckWishListTest@70e9c95d]" started-at="2022-10-07T22:47:11 IST" name="checkWishListTest" finished-at="2022-10-07T22:47:11 IST" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkWishListTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:training.assignment.testcase.CheckWishListTest@70e9c95d]" started-at="2022-10-07T22:47:11 IST" name="afterMethod" finished-at="2022-10-07T22:47:11 IST" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkWishListTest status=SUCCESS method=CheckWishListTest.checkWishListTest()[pri:0, instance:training.assignment.testcase.CheckWishListTest@70e9c95d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- training.assignment.testcase.CheckWishListTest -->
+    </test> <!-- Wishlist Test -->
+    <test started-at="2022-10-07T22:47:11 IST" name="Orders Test" finished-at="2022-10-07T22:47:12 IST" duration-ms="1125">
+      <class name="training.assignment.testcase.CheckOrdersTest">
+        <test-method is-config="true" signature="enterurl(java.lang.reflect.Method)[pri:0, instance:training.assignment.testcase.CheckOrdersTest@52719fb6]" started-at="2022-10-07T22:47:11 IST" name="enterurl" finished-at="2022-10-07T22:47:12 IST" duration-ms="654" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void training.assignment.testcase.CheckOrdersTest.checkOrder()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurl -->
+        <test-method signature="checkOrder()[pri:0, instance:training.assignment.testcase.CheckOrdersTest@52719fb6]" started-at="2022-10-07T22:47:12 IST" name="checkOrder" finished-at="2022-10-07T22:47:12 IST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOrder -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:training.assignment.testcase.CheckOrdersTest@52719fb6]" started-at="2022-10-07T22:47:12 IST" name="afterMethod" finished-at="2022-10-07T22:47:12 IST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkOrder status=SUCCESS method=CheckOrdersTest.checkOrder()[pri:0, instance:training.assignment.testcase.CheckOrdersTest@52719fb6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- training.assignment.testcase.CheckOrdersTest -->
+    </test> <!-- Orders Test -->
+    <test started-at="2022-10-07T22:47:12 IST" name="Coupons Test" finished-at="2022-10-07T22:47:14 IST" duration-ms="1308">
+      <class name="training.assignment.testcase.CheckCouponsTest">
+        <test-method is-config="true" signature="enterurl(java.lang.reflect.Method)[pri:0, instance:training.assignment.testcase.CheckCouponsTest@5677323c]" started-at="2022-10-07T22:47:12 IST" name="enterurl" finished-at="2022-10-07T22:47:13 IST" duration-ms="801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void training.assignment.testcase.CheckCouponsTest.checkCoupons()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurl -->
+        <test-method signature="checkCoupons()[pri:0, instance:training.assignment.testcase.CheckCouponsTest@5677323c]" started-at="2022-10-07T22:47:13 IST" name="checkCoupons" finished-at="2022-10-07T22:47:14 IST" duration-ms="475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCoupons -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:training.assignment.testcase.CheckCouponsTest@5677323c]" started-at="2022-10-07T22:47:14 IST" name="afterMethod" finished-at="2022-10-07T22:47:14 IST" duration-ms="29" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkCoupons status=SUCCESS method=CheckCouponsTest.checkCoupons()[pri:0, instance:training.assignment.testcase.CheckCouponsTest@5677323c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- training.assignment.testcase.CheckCouponsTest -->
+    </test> <!-- Coupons Test -->
+    <test started-at="2022-10-07T22:47:14 IST" name="Giftcard Test" finished-at="2022-10-07T22:47:16 IST" duration-ms="2132">
+      <class name="training.assignment.testcase.GiftCardTest">
+        <test-method is-config="true" signature="enterurl(java.lang.reflect.Method)[pri:0, instance:training.assignment.testcase.GiftCardTest@791f145a]" started-at="2022-10-07T22:47:14 IST" name="enterurl" finished-at="2022-10-07T22:47:14 IST" duration-ms="632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void training.assignment.testcase.GiftCardTest.giftCard()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurl -->
+        <test-method is-config="true" signature="login()[pri:0, instance:training.assignment.testcase.GiftCardTest@791f145a]" started-at="2022-10-07T22:47:14 IST" name="login" finished-at="2022-10-07T22:47:15 IST" duration-ms="718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="giftCard()[pri:0, instance:training.assignment.testcase.GiftCardTest@791f145a]" started-at="2022-10-07T22:47:15 IST" name="giftCard" finished-at="2022-10-07T22:47:16 IST" duration-ms="758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- giftCard -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:training.assignment.testcase.GiftCardTest@791f145a]" started-at="2022-10-07T22:47:16 IST" name="afterMethod" finished-at="2022-10-07T22:47:16 IST" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=giftCard status=SUCCESS method=GiftCardTest.giftCard()[pri:0, instance:training.assignment.testcase.GiftCardTest@791f145a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- training.assignment.testcase.GiftCardTest -->
+    </test> <!-- Giftcard Test -->
+    <test started-at="2022-10-07T22:47:16 IST" name="Notification Test" finished-at="2022-10-07T22:47:18 IST" duration-ms="1583">
+      <class name="training.assignment.testcase.NotificationTest">
+        <test-method is-config="true" signature="enterurl(java.lang.reflect.Method)[pri:0, instance:training.assignment.testcase.NotificationTest@6340e5f0]" started-at="2022-10-07T22:47:16 IST" name="enterurl" finished-at="2022-10-07T22:47:17 IST" duration-ms="783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void training.assignment.testcase.NotificationTest.superCoinTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurl -->
+        <test-method signature="superCoinTest()[pri:0, instance:training.assignment.testcase.NotificationTest@6340e5f0]" started-at="2022-10-07T22:47:17 IST" name="superCoinTest" finished-at="2022-10-07T22:47:18 IST" duration-ms="780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- superCoinTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:training.assignment.testcase.NotificationTest@6340e5f0]" started-at="2022-10-07T22:47:18 IST" name="afterMethod" finished-at="2022-10-07T22:47:18 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=superCoinTest status=SUCCESS method=NotificationTest.superCoinTest()[pri:0, instance:training.assignment.testcase.NotificationTest@6340e5f0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- training.assignment.testcase.NotificationTest -->
+    </test> <!-- Notification Test -->
+    <test started-at="2022-10-07T22:47:18 IST" name="Dowanload App Test" finished-at="2022-10-07T22:47:19 IST" duration-ms="1365">
+      <class name="training.assignment.testcase.DownloadAppTest">
+        <test-method is-config="true" signature="enterurl(java.lang.reflect.Method)[pri:0, instance:training.assignment.testcase.DownloadAppTest@60099951]" started-at="2022-10-07T22:47:18 IST" name="enterurl" finished-at="2022-10-07T22:47:18 IST" duration-ms="693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void training.assignment.testcase.DownloadAppTest.downloadTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurl -->
+        <test-method signature="downloadTest()[pri:0, instance:training.assignment.testcase.DownloadAppTest@60099951]" started-at="2022-10-07T22:47:18 IST" name="downloadTest" finished-at="2022-10-07T22:47:19 IST" duration-ms="648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:training.assignment.testcase.DownloadAppTest@60099951]" started-at="2022-10-07T22:47:19 IST" name="afterMethod" finished-at="2022-10-07T22:47:19 IST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=downloadTest status=SUCCESS method=DownloadAppTest.downloadTest()[pri:0, instance:training.assignment.testcase.DownloadAppTest@60099951] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- training.assignment.testcase.DownloadAppTest -->
+    </test> <!-- Dowanload App Test -->
+    <test started-at="2022-10-07T22:47:19 IST" name="Grocery Test" finished-at="2022-10-07T22:47:31 IST" duration-ms="12266">
+      <class name="training.assignment.testcase.FindGroceryTest">
+        <test-method is-config="true" signature="enterurl(java.lang.reflect.Method)[pri:0, instance:training.assignment.testcase.FindGroceryTest@71ba6d4e]" started-at="2022-10-07T22:47:19 IST" name="enterurl" finished-at="2022-10-07T22:47:20 IST" duration-ms="737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void training.assignment.testcase.FindGroceryTest.groceryTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurl -->
+        <test-method is-config="true" signature="login()[pri:0, instance:training.assignment.testcase.FindGroceryTest@71ba6d4e]" started-at="2022-10-07T22:47:20 IST" name="login" finished-at="2022-10-07T22:47:20 IST" duration-ms="612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="groceryTest()[pri:0, instance:training.assignment.testcase.FindGroceryTest@71ba6d4e]" started-at="2022-10-07T22:47:20 IST" name="groceryTest" finished-at="2022-10-07T22:47:31 IST" duration-ms="10312" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="container"]/div/div[1]/div[1]/div[2]/div[3]/div/div/div[2]/div[2]/div/div/div[1]/form/input"}
+  (Session info: chrome=106.0.5249.91)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PG02NJQL', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\yogesh05\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58337}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c7a0cb27f78d177d36f87b694d26f51e
+*** Element info: {Using=xpath, value=//*[@id="container"]/div/div[1]/div[1]/div[2]/div[3]/div/div/div[2]/div[2]/div/div/div[1]/form/input}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="container"]/div/div[1]/div[1]/div[2]/div[3]/div/div/div[2]/div[2]/div/div/div[1]/form/input"}
+  (Session info: chrome=106.0.5249.91)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'IN-PG02NJQL', ip: '192.168.0.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\yogesh05\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58337}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c7a0cb27f78d177d36f87b694d26f51e
+*** Element info: {Using=xpath, value=//*[@id="container"]/div/div[1]/div[1]/div[2]/div[3]/div/div/div[2]/div[2]/div/div/div[1]/form/input}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at training.assignment.testcase.FindGroceryTest.groceryTest(FindGroceryTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- groceryTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:training.assignment.testcase.FindGroceryTest@71ba6d4e]" started-at="2022-10-07T22:47:31 IST" name="afterMethod" finished-at="2022-10-07T22:47:31 IST" duration-ms="599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=groceryTest status=FAILURE method=FindGroceryTest.groceryTest()[pri:0, instance:training.assignment.testcase.FindGroceryTest@71ba6d4e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- training.assignment.testcase.FindGroceryTest -->
+    </test> <!-- Grocery Test -->
+    <test started-at="2022-10-07T22:47:31 IST" name="Home And Furniture Test" finished-at="2022-10-07T22:47:35 IST" duration-ms="3459">
+      <class name="training.assignment.testcase.CheckHomeAndFurnTest">
+        <test-method is-config="true" signature="enterurl(java.lang.reflect.Method)[pri:0, instance:training.assignment.testcase.CheckHomeAndFurnTest@750e2b97]" started-at="2022-10-07T22:47:31 IST" name="enterurl" finished-at="2022-10-07T22:47:32 IST" duration-ms="635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void training.assignment.testcase.CheckHomeAndFurnTest.homeAndfurnTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurl -->
+        <test-method is-config="true" signature="login()[pri:0, instance:training.assignment.testcase.CheckHomeAndFurnTest@750e2b97]" started-at="2022-10-07T22:47:32 IST" name="login" finished-at="2022-10-07T22:47:32 IST" duration-ms="551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="homeAndfurnTest()[pri:0, instance:training.assignment.testcase.CheckHomeAndFurnTest@750e2b97]" started-at="2022-10-07T22:47:32 IST" name="homeAndfurnTest" finished-at="2022-10-07T22:47:35 IST" duration-ms="2232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeAndfurnTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:training.assignment.testcase.CheckHomeAndFurnTest@750e2b97]" started-at="2022-10-07T22:47:35 IST" name="afterMethod" finished-at="2022-10-07T22:47:35 IST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homeAndfurnTest status=SUCCESS method=CheckHomeAndFurnTest.homeAndfurnTest()[pri:0, instance:training.assignment.testcase.CheckHomeAndFurnTest@750e2b97] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- training.assignment.testcase.CheckHomeAndFurnTest -->
+    </test> <!-- Home And Furniture Test -->
+    <test started-at="2022-10-07T22:47:35 IST" name="Become A Seller Test" finished-at="2022-10-07T22:47:40 IST" duration-ms="4933">
+      <class name="training.assignment.testcase.SellerTest">
+        <test-method is-config="true" signature="enterurl(java.lang.reflect.Method)[pri:0, instance:training.assignment.testcase.SellerTest@f0c8a99]" started-at="2022-10-07T22:47:35 IST" name="enterurl" finished-at="2022-10-07T22:47:36 IST" duration-ms="876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void training.assignment.testcase.SellerTest.sellerTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurl -->
+        <test-method signature="sellerTest()[pri:0, instance:training.assignment.testcase.SellerTest@f0c8a99]" started-at="2022-10-07T22:47:36 IST" name="sellerTest" finished-at="2022-10-07T22:47:40 IST" duration-ms="4031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sellerTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:training.assignment.testcase.SellerTest@f0c8a99]" started-at="2022-10-07T22:47:40 IST" name="afterMethod" finished-at="2022-10-07T22:47:40 IST" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sellerTest status=SUCCESS method=SellerTest.sellerTest()[pri:0, instance:training.assignment.testcase.SellerTest@f0c8a99] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- training.assignment.testcase.SellerTest -->
+    </test> <!-- Become A Seller Test -->
+    <test started-at="2022-10-07T22:47:40 IST" name="Notification Preference Test" finished-at="2022-10-07T22:47:41 IST" duration-ms="1407">
+      <class name="training.assignment.testcase.NotificationPreferenceTest">
+        <test-method is-config="true" signature="enterurl(java.lang.reflect.Method)[pri:0, instance:training.assignment.testcase.NotificationPreferenceTest@54c5a2ff]" started-at="2022-10-07T22:47:40 IST" name="enterurl" finished-at="2022-10-07T22:47:40 IST" duration-ms="638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void training.assignment.testcase.NotificationPreferenceTest.notificationPreferenceTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurl -->
+        <test-method signature="notificationPreferenceTest()[pri:0, instance:training.assignment.testcase.NotificationPreferenceTest@54c5a2ff]" started-at="2022-10-07T22:47:40 IST" name="notificationPreferenceTest" finished-at="2022-10-07T22:47:41 IST" duration-ms="750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notificationPreferenceTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:training.assignment.testcase.NotificationPreferenceTest@54c5a2ff]" started-at="2022-10-07T22:47:41 IST" name="afterMethod" finished-at="2022-10-07T22:47:41 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=notificationPreferenceTest status=SUCCESS method=NotificationPreferenceTest.notificationPreferenceTest()[pri:0, instance:training.assignment.testcase.NotificationPreferenceTest@54c5a2ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- training.assignment.testcase.NotificationPreferenceTest -->
+    </test> <!-- Notification Preference Test -->
+    <test started-at="2022-10-07T22:47:41 IST" name="Customer Care Test" finished-at="2022-10-07T22:47:42 IST" duration-ms="1288">
+      <class name="training.assignment.testcase.CustomerCareTest">
+        <test-method is-config="true" signature="enterurl(java.lang.reflect.Method)[pri:0, instance:training.assignment.testcase.CustomerCareTest@2e8c1c9b]" started-at="2022-10-07T22:47:41 IST" name="enterurl" finished-at="2022-10-07T22:47:42 IST" duration-ms="710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void training.assignment.testcase.CustomerCareTest.customerCareTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurl -->
+        <test-method signature="customerCareTest()[pri:0, instance:training.assignment.testcase.CustomerCareTest@2e8c1c9b]" started-at="2022-10-07T22:47:42 IST" name="customerCareTest" finished-at="2022-10-07T22:47:42 IST" duration-ms="552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerCareTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:training.assignment.testcase.CustomerCareTest@2e8c1c9b]" started-at="2022-10-07T22:47:42 IST" name="afterMethod" finished-at="2022-10-07T22:47:42 IST" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customerCareTest status=SUCCESS method=CustomerCareTest.customerCareTest()[pri:0, instance:training.assignment.testcase.CustomerCareTest@2e8c1c9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- training.assignment.testcase.CustomerCareTest -->
+    </test> <!-- Customer Care Test -->
+    <test started-at="2022-10-07T22:47:42 IST" name="Advertise Test" finished-at="2022-10-07T22:47:44 IST" duration-ms="2024">
+      <class name="training.assignment.testcase.AdvertiseTest">
+        <test-method is-config="true" signature="enterurl(java.lang.reflect.Method)[pri:0, instance:training.assignment.testcase.AdvertiseTest@7d0b7e3c]" started-at="2022-10-07T22:47:42 IST" name="enterurl" finished-at="2022-10-07T22:47:43 IST" duration-ms="645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void training.assignment.testcase.AdvertiseTest.advertiseTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurl -->
+        <test-method signature="advertiseTest()[pri:0, instance:training.assignment.testcase.AdvertiseTest@7d0b7e3c]" started-at="2022-10-07T22:47:43 IST" name="advertiseTest" finished-at="2022-10-07T22:47:44 IST" duration-ms="1354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- advertiseTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:training.assignment.testcase.AdvertiseTest@7d0b7e3c]" started-at="2022-10-07T22:47:44 IST" name="afterMethod" finished-at="2022-10-07T22:47:44 IST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=advertiseTest status=SUCCESS method=AdvertiseTest.advertiseTest()[pri:0, instance:training.assignment.testcase.AdvertiseTest@7d0b7e3c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- training.assignment.testcase.AdvertiseTest -->
+    </test> <!-- Advertise Test -->
+    <test started-at="2022-10-07T22:47:44 IST" name="Logout Test" finished-at="2022-10-07T22:47:45 IST" duration-ms="1039">
+      <class name="training.assignment.testcase.LogoutTest">
+        <test-method is-config="true" signature="initializeWebdriver(java.lang.String)[pri:0, instance:training.assignment.testcase.LogoutTest@7674f035]" started-at="2022-10-07T22:46:14 IST" name="initializeWebdriver" finished-at="2022-10-07T22:46:16 IST" duration-ms="1691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebdriver -->
+        <test-method is-config="true" signature="enterurl(java.lang.reflect.Method)[pri:0, instance:training.assignment.testcase.LogoutTest@7674f035]" started-at="2022-10-07T22:47:44 IST" name="enterurl" finished-at="2022-10-07T22:47:45 IST" duration-ms="585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void training.assignment.testcase.LogoutTest.logoutTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterurl -->
+        <test-method signature="logoutTest()[pri:0, instance:training.assignment.testcase.LogoutTest@7674f035]" started-at="2022-10-07T22:47:45 IST" name="logoutTest" finished-at="2022-10-07T22:47:45 IST" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:training.assignment.testcase.LogoutTest@7674f035]" started-at="2022-10-07T22:47:45 IST" name="afterMethod" finished-at="2022-10-07T22:47:45 IST" duration-ms="32" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logoutTest status=SUCCESS method=LogoutTest.logoutTest()[pri:0, instance:training.assignment.testcase.LogoutTest@7674f035] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="browserclose()[pri:0, instance:training.assignment.testcase.LogoutTest@7674f035]" started-at="2022-10-07T22:47:45 IST" name="browserclose" finished-at="2022-10-07T22:47:46 IST" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- training.assignment.testcase.LogoutTest -->
+    </test> <!-- Logout Test -->
+  </suite> <!-- Chrome Test -->
+</testng-results>

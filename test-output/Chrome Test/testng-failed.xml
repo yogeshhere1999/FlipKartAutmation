@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Chrome Test]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Grocery Test(failed)">
+    <classes>
+      <class name="training.assignment.testcase.FindGroceryTest">
+        <methods>
+          <include name="login"/>
+          <include name="initializeWebdriver"/>
+          <include name="browserclose"/>
+          <include name="enterurl"/>
+          <include name="groceryTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- training.assignment.testcase.FindGroceryTest -->
+    </classes>
+  </test> <!-- Grocery Test(failed) -->
+</suite> <!-- Failed suite [Chrome Test] -->

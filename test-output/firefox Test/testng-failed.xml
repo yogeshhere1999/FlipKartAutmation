@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [firefox Test]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="firefox"/>
+  <test thread-count="5" name="Login Test(failed)">
+    <classes>
+      <class name="training.assignment.testcase.LoginTest">
+        <methods>
+          <include name="initializeWebdriver"/>
+          <include name="enterurl"/>
+          <include name="correctemailtest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- training.assignment.testcase.LoginTest -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+  <test thread-count="5" name="Search Test(failed)">
+    <classes>
+      <class name="training.assignment.testcase.SearchTest">
+        <methods>
+          <include name="initializeWebdriver"/>
+          <include name="searchTest"/>
+          <include name="enterurl"/>
+          <include name="afterMethod"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- training.assignment.testcase.SearchTest -->
+    </classes>
+  </test> <!-- Search Test(failed) -->
+  <test thread-count="5" name="Add To Cart Test(failed)">
+    <classes>
+      <class name="training.assignment.testcase.AddToCartTest">
+        <methods>
+          <include name="initializeWebdriver"/>
+          <include name="openProductUrl"/>
+          <include name="enterurl"/>
+          <include name="afterMethod"/>
+          <include name="cartTest"/>
+        </methods>
+      </class> <!-- training.assignment.testcase.AddToCartTest -->
+    </classes>
+  </test> <!-- Add To Cart Test(failed) -->
+  <test thread-count="5" name="Go to Cart Test(failed)">
+    <classes>
+      <class name="training.assignment.testcase.GoToCartTest">
+        <methods>
+          <include name="initializeWebdriver"/>
+          <include name="CartButton"/>
+          <include name="enterurl"/>
+          <include name="login"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- training.assignment.testcase.GoToCartTest -->
+    </classes>
+  </test> <!-- Go to Cart Test(failed) -->
+  <test thread-count="5" name="Remove From Cart Test(failed)">
+    <classes>
+      <class name="training.assignment.testcase.RemoveItemTest">
+        <methods>
+          <include name="initializeWebdriver"/>
+          <include name="login"/>
+          <include name="enterurl"/>
+          <include name="removeItem"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- training.assignment.testcase.RemoveItemTest -->
+    </classes>
+  </test> <!-- Remove From Cart Test(failed) -->
+  <test thread-count="5" name="My Pofile Test(failed)">
+    <classes>
+      <class name="training.assignment.testcase.ProfileTest">
+        <methods>
+          <include name="Profile"/>
+          <include name="initializeWebdriver"/>
+          <include name="login"/>
+          <include name="enterurl"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- training.assignment.testcase.ProfileTest -->
+    </classes>
+  </test> <!-- My Pofile Test(failed) -->
+  <test thread-count="5" name="Super Coin Test(failed)">
+    <classes>
+      <class name="training.assignment.testcase.SuperCoinTest">
+        <methods>
+          <include name="login"/>
+          <include name="initializeWebdriver"/>
+          <include name="superCoinTest"/>
+          <include name="enterurl"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- training.assignment.testcase.SuperCoinTest -->
+    </classes>
+  </test> <!-- Super Coin Test(failed) -->
+  <test thread-count="5" name="Flipkart Plus Test(failed)">
+    <classes>
+      <class name="training.assignment.testcase.FlipkartPlusZoneTest">
+        <methods>
+          <include name="initializeWebdriver"/>
+          <include name="login"/>
+          <include name="enterurl"/>
+          <include name="flipkartPlusZoneTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- training.assignment.testcase.FlipkartPlusZoneTest -->
+    </classes>
+  </test> <!-- Flipkart Plus Test(failed) -->
+  <test thread-count="5" name="Wishlist Test(failed)">
+    <classes>
+      <class name="training.assignment.testcase.CheckWishListTest">
+        <methods>
+          <include name="initializeWebdriver"/>
+          <include name="enterurl"/>
+          <include name="login"/>
+          <include name="checkWishListTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- training.assignment.testcase.CheckWishListTest -->
+    </classes>
+  </test> <!-- Wishlist Test(failed) -->
+  <test thread-count="5" name="Orders Test(failed)">
+    <classes>
+      <class name="training.assignment.testcase.CheckOrdersTest">
+        <methods>
+          <include name="initializeWebdriver"/>
+          <include name="enterurl"/>
+          <include name="checkOrder"/>
+          <include name="login"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- training.assignment.testcase.CheckOrdersTest -->
+    </classes>
+  </test> <!-- Orders Test(failed) -->
+  <test thread-count="5" name="Coupons Test(failed)">
+    <classes>
+      <class name="training.assignment.testcase.CheckCouponsTest">
+        <methods>
+          <include name="initializeWebdriver"/>
+          <include name="enterurl"/>
+          <include name="checkCoupons"/>
+          <include name="afterMethod"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- training.assignment.testcase.CheckCouponsTest -->
+    </classes>
+  </test> <!-- Coupons Test(failed) -->
+  <test thread-count="5" name="Giftcard Test(failed)">
+    <classes>
+      <class name="training.assignment.testcase.GiftCardTest">
+        <methods>
+          <include name="initializeWebdriver"/>
+          <include name="login"/>
+          <include name="enterurl"/>
+          <include name="afterMethod"/>
+          <include name="giftCard"/>
+        </methods>
+      </class> <!-- training.assignment.testcase.GiftCardTest -->
+    </classes>
+  </test> <!-- Giftcard Test(failed) -->
+  <test thread-count="5" name="Notification Test(failed)">
+    <classes>
+      <class name="training.assignment.testcase.NotificationTest">
+        <methods>
+          <include name="initializeWebdriver"/>
+          <include name="superCoinTest"/>
+          <include name="login"/>
+          <include name="enterurl"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- training.assignment.testcase.NotificationTest -->
+    </classes>
+  </test> <!-- Notification Test(failed) -->
+  <test thread-count="5" name="Logout Test(failed)">
+    <classes>
+      <class name="training.assignment.testcase.LogoutTest">
+        <methods>
+          <include name="initializeWebdriver"/>
+          <include name="login"/>
+          <include name="logoutTest"/>
+          <include name="enterurl"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- training.assignment.testcase.LogoutTest -->
+    </classes>
+  </test> <!-- Logout Test(failed) -->
+  <test thread-count="5" name="Grocery Test(failed)">
+    <classes>
+      <class name="training.assignment.testcase.FindGroceryTest">
+        <methods>
+          <include name="login"/>
+          <include name="initializeWebdriver"/>
+          <include name="grocertTest"/>
+          <include name="enterurl"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- training.assignment.testcase.FindGroceryTest -->
+    </classes>
+  </test> <!-- Grocery Test(failed) -->
+  <test thread-count="5" name="Home And Furniture Test(failed)">
+    <classes>
+      <class name="training.assignment.testcase.CheckHomeAndFurnTest">
+        <methods>
+          <include name="initializeWebdriver"/>
+          <include name="homeAndfurnTest"/>
+          <include name="login"/>
+          <include name="enterurl"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- training.assignment.testcase.CheckHomeAndFurnTest -->
+    </classes>
+  </test> <!-- Home And Furniture Test(failed) -->
+  <test thread-count="5" name="Become A Seller Test(failed)">
+    <classes>
+      <class name="training.assignment.testcase.SellerTest">
+        <methods>
+          <include name="sellerTest"/>
+          <include name="initializeWebdriver"/>
+          <include name="enterurl"/>
+          <include name="login"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- training.assignment.testcase.SellerTest -->
+    </classes>
+  </test> <!-- Become A Seller Test(failed) -->
+  <test thread-count="5" name="Notification Preference Test(failed)">
+    <classes>
+      <class name="training.assignment.testcase.NotificationPreferenceTest">
+        <methods>
+          <include name="notificationPreferenceTest"/>
+          <include name="initializeWebdriver"/>
+          <include name="login"/>
+          <include name="enterurl"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- training.assignment.testcase.NotificationPreferenceTest -->
+    </classes>
+  </test> <!-- Notification Preference Test(failed) -->
+  <test thread-count="5" name="Customer Care Test(failed)">
+    <classes>
+      <class name="training.assignment.testcase.CustomerCareTest">
+        <methods>
+          <include name="initializeWebdriver"/>
+          <include name="login"/>
+          <include name="enterurl"/>
+          <include name="customerCareTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- training.assignment.testcase.CustomerCareTest -->
+    </classes>
+  </test> <!-- Customer Care Test(failed) -->
+  <test thread-count="5" name="Advertise Test(failed)">
+    <classes>
+      <class name="training.assignment.testcase.AdvertiseTest">
+        <methods>
+          <include name="advertiseTest"/>
+          <include name="initializeWebdriver"/>
+          <include name="login"/>
+          <include name="enterurl"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- training.assignment.testcase.AdvertiseTest -->
+    </classes>
+  </test> <!-- Advertise Test(failed) -->
+  <test thread-count="5" name="Download App Test(failed)">
+    <classes>
+      <class name="training.assignment.testcase.DownloadAppTest">
+        <methods>
+          <include name="initializeWebdriver"/>
+          <include name="downloadTest"/>
+          <include name="enterurl"/>
+          <include name="login"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- training.assignment.testcase.DownloadAppTest -->
+    </classes>
+  </test> <!-- Download App Test(failed) -->
+</suite> <!-- Failed suite [firefox Test] -->
